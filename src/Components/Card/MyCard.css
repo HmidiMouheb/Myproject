@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.username-n-phone {
+  /* border:1px solid black; */
+  margin-left: 10px;
+  padding-top: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-header {
+  padding: 10px !important;
+}
+
+.card {
+  width: auto;
+  margin-top: 20px;
+}
+
+.edit-delete-grp-btn {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px !important;
+}
+
+.heart-icon:hover{
+  color: red;
+  cursor: pointer;
+}
+.heart-icon{
+  
+}

@@ -1,0 +1,21 @@
+.product-card {
+}
+.all-card-elements {
+}
+.product-poster {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px black solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.product-poster-username {
+  margin-left: 10px;
+  margin-top: 4px;
+  align-self: center;
+}
+

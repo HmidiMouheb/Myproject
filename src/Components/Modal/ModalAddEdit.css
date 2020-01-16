@@ -1,0 +1,66 @@
+.handling-buttons {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-icon {
+  /* border: 1px solid black; */
+  margin-top: 2px !important;
+}
+
+.each-button {
+  margin-right: 10px;
+}
+
+.selection-forms {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.category-form {
+  margin-right: 40px;
+}
+
+.modal-openning-button {
+  border: none !important;
+  padding: 0px !important;
+  margin-right: 10px !important;
+  width: 50px !important;
+  height: 50px !important;
+  color: white !important;
+  background-color: #006fe6 !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+}
+
+.adding-post-group {
+  /* border: 1px solid black; */
+  padding-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.edit-button {
+  height: auto !important;
+}
+
+.success-update {
+  border: 1px solid black;
+  text-align: center;
+  align-self: center;
+  padding: 10px;
+  color: white;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: rgb(104, 180, 104);
+}

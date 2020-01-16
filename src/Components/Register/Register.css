@@ -1,0 +1,122 @@
+.register-page-container {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  align-items: center;
+}
+
+.call-to-register {
+  /* border: 1px solid black; */
+  color: #006fe6;
+}
+
+.logo-name {
+  /* border: 1px solid rgb(189, 38, 38); */
+  width: 150px;
+}
+
+.form-container {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.check-n-submit {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.check-n-text {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+.check-box {
+  /* border: 1px solid black; */
+  width: auto;
+  margin: 0px;
+  /* padding-bottom:0px !important; */
+}
+
+.check-text {
+  /* border:1px solid black; */
+  font-size: 12px;
+  margin: 2px;
+}
+
+.input-description {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-eye-icon:hover {
+  cursor: pointer !important;
+  color: #0d47a1 !important;
+}
+.closed-eye-icon:hover {
+  cursor: pointer !important;
+  color: #0d47a1 !important;
+}
+
+.terms-n-service {
+  font-weight: normal;
+  color: #006fe6;
+  margin: 0px !important;
+}
+
+.fb-social-button {
+  color: white !important;
+  /* border: 1px solid black !important; */
+  background-color: #0d47a1 !important;
+  margin-top: 10px !important;
+  width: 250px !important;
+}
+
+.g-social-button {
+  color: white !important;
+  /* border: 1px solid black !important; */
+  background-color: #dd4b39 !important;
+  width: 250px !important;
+}
+.insta-social-button {
+  color: white !important;
+  /* border: 1px solid black !important; */
+  background-color: #ee446a !important;
+  width: 250px !important;
+}
+.connect-with {
+  /* border:1px solid black; */
+  margin-top: 20px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+}
+.social {
+  width: auto !important;
+  /* margin-left:50px; */
+  /* margin-right:50px; */
+  height: 50px;
+}
+
+.alert {
+  border: 1px solid rgba(255, 255, 0, 0) !important;
+  margin: 0px !important;
+  color:#b1984d;
+  font-weight: 350;
+  border-radius: 5px !important;
+  text-align: center !important;
+  height: 50px !important;
+  background-color: #fff3cd;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}

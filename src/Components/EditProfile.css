@@ -1,0 +1,59 @@
+.Container {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.change-password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submitting-none-errmsg {
+  color: red;
+  font-weight: 400;
+}
+
+.newpass-req-errmsg {
+  color: orange;
+  font-weight: 400;
+}
+.input-for-account-edit {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 50px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.edit-password-button {
+  border: 1px solid #006fe6;
+  background-color: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  color: black;
+  margin-top: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.submit-button {
+  background-color: transparent;
+  border-radius: 5px !important;
+  margin: 30px;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}

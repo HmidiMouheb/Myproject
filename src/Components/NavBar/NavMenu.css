@@ -1,0 +1,113 @@
+.navbar {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  height: 70px !important;
+  /* border: 1px solid black; */
+}
+.nav-mainpart {
+  justify-content: space-between;
+  display: flex;
+}
+.profile-link {
+  display: flex;
+  align-self: center;
+  text-decoration: none;
+  color: black;
+}
+.logo {
+}
+
+.category-form {
+  border: 1px solid black !important;
+  margin-bottom: 0px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .category-selector {
+    margin-right: 5px;
+  }
+  .sub-category-selector {
+    margin-left: 5px;
+  }
+}
+
+.sort-by-category {
+  /* border: 1px solid black; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.categories {
+  height: 30px !important;
+  width: 50px !important;
+  border-color: red;
+}
+
+.search-bar {
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  -ms-border-radius: 0px !important;
+  -o-border-radius: 0px !important;
+}
+
+.login-or-register-btngroup {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.social {
+  height: auto !important;
+  border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  -ms-border-radius: 4px !important;
+  -o-border-radius: 4px !important;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  left: -5px;
+}
+.search-icon {
+  margin-left: 6px;
+  left: 150px;
+}
+
+.nav-button {
+  padding-right: 10px;
+}
+
+.loading {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logout {
+  color: black;
+  padding: 0px;
+}
+
+.drop-down-icon {
+  border: none !important;
+  /* padding:5px !; */
+  background-color: transparent !important;
+  color: black !important;
+}
+.drop-down-menu {
+  /* border: 1px solid black !important; */
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 10px !important;
+}
+
+.drop-down-item{
+  padding: 3px !important;
+}
